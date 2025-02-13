@@ -1,0 +1,84 @@
+header {
+    font-family: 'Pacifico', cursive;
+    background-color: #a44f9f;
+
+  }
+
+h1{
+    margin-top: 5px;  /* Reduce space between navbar and h1 */
+    text-align: center;
+    font-size: 90px;
+}
+
+.navbar{
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-selection-button{
+    padding: 10px;                /* Space inside the box */
+    margin: 10px;                 /* Space between boxes */
+    background-color:  #ffc2fb;;   /* Light background color */
+    border: 2px solid #ffc2fb;      /* Border around the box */
+    border-radius: 8px;          /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 150px;                /* Fixed width */
+    height: 50px;                /* Fixed height */
+    display: flex;               /* Use flexbox to center content */
+    justify-content: center;     /* Horizontally center content */
+    align-items: center;         /* Vertically center content */
+    font-family: Arial, sans-serif; /* Clean font for readability */
+    font-size: 30px;
+}
+
+#nav-selection-button:hover{
+    background-color:  #f5a1ef;;   /* Light background color */
+    border: #d487cf;      /* Border around the box */
+    cursor: pointer;
+
+}
+
+body{
+    font-family: 'Pacifico', cursive;
+    background-color: #C0D4EA;
+}
+
+.page-selection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page-selection-button{
+    padding: 10px;                /* Space inside the box */
+    margin: 10px;                 /* Space between boxes */
+    background-color:  #ffc2fb;   /* Light background color */
+    border: 2px solid #ffc2fb;      /* Border around the box */
+    border-radius: 8px;          /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 400px;                /* Fixed width */
+    height: 100px;                /* Fixed height */
+    justify-content: center;     /* Horizontally center content */
+    align-items: center;         /* Vertically center content */
+    font-family: Arial, sans-serif; /* Clean font for readability */
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+#page-selection-button:hover{
+
+    background-color:  #f5a1ef;   /* Light background color */
+    border: #d487cf;      /* Border around the box */
+
+}
+
+a{
+
+    font-family: 'Pacifico', cursive;
+    color: black;
+    text-decoration: none;
+
+}
+

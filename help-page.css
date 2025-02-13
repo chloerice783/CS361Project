@@ -1,0 +1,34 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+
+}
+
+header{
+    width: 100%;
+}
+
+.help-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 1475px;
+    height: 475px;
+    border-radius: 15px;
+
+}
+
+h3 {
+    font-size: 25px;
+
+}
+
+ul {
+    font-size: 20px;
+
+}

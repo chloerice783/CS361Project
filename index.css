@@ -1,0 +1,33 @@
+header {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+  }
+
+.site-title{
+
+    font-size: 80px;
+
+}
+
+.site-description{
+
+    font-size: 40px;
+
+}
+
+body{
+    font-family: 'Pacifico', cursive;
+    background-color: #C0D4EA;
+}
+
+.login-container{
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.login-image{
+
+    align-items: center;
+    text-align: center;
+}
